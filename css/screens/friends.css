@@ -5,8 +5,25 @@
   font-size: 18px;
   opacity: 0.8;
   background-color: #fafafa;
+  margin-bottom: 10px;
 }
 
 .friends-display-link i {
   opacity: 0.4;
+}
+
+.friends-channel {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: var(--main-border);
+}
+
+.friends-channel__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.6;
+}
+
+.friends-channel__list {
+  padding-top: 25px;
 }
