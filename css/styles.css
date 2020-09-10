@@ -1,9 +1,11 @@
-@import "./reset.css";
-
+@import "/css/reset.css";
+@import "/css/variables.css";
 /*Component*/
-
+@import "/css/components/status-bar.css";
+@import "/css/components/screen-header.css";
 /*Screens*/
-@import "./screens/login.css";
+@import "/css/screens/login.css";
+@import "/css/screens/friends.css";
 
 * {
   margin: 0;
