@@ -6,10 +6,12 @@
 @import "/css/components/nav-bar.css";
 @import "/css/components/badge.css";
 @import "/css/components/user-component.css";
+@import "/css/components/icons-list.css";
 /*Screens*/
 @import "/css/screens/login.css";
 @import "/css/screens/friends.css";
 @import "/css/screens/find.css";
+@import "/css/screens/more.css";
 
 * {
   margin: 0;
