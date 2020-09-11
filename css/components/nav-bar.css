@@ -21,4 +21,10 @@
 .nav-bar__chat-alarm {
   bottom: 15px;
   left: 15px;
+  position: absolute;
+}
+
+.nav-bar__more-alarm {
+  right: -10px;
+  bottom: 30px;
 }
