@@ -9,6 +9,7 @@
 /*Screens*/
 @import "/css/screens/login.css";
 @import "/css/screens/friends.css";
+@import "/css/screens/find.css";
 
 * {
   margin: 0;
