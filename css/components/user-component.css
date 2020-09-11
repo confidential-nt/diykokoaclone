@@ -57,11 +57,10 @@
 }
 
 .user-component__time {
-  opacity: 0.4;
   margin-bottom: 9px;
 }
 
-.user-component__column:last-child > div span,
-.user-component__column:last-child div i {
+.user-component__column:last-child span,
+.user-component__column:last-child i {
   opacity: 0.4;
 }
