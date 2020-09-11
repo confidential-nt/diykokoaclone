@@ -43,7 +43,25 @@
   font-weight: 400;
 }
 
-.user-component__column > div span,
-.user-component__column div i {
+.user-component__status {
+  font-size: 17px;
+  margin-top: 6px;
+  opacity: 0.6;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  opacity: 0.4;
+  margin-bottom: 9px;
+}
+
+.user-component__column:last-child > div span,
+.user-component__column:last-child div i {
   opacity: 0.4;
 }
