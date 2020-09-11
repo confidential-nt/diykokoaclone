@@ -7,5 +7,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.min-badge {
+  border-radius: 50%;
+  background-color: #ff6229;
+  width: 5px;
+  height: 5px;
   position: absolute;
 }
