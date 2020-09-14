@@ -7,11 +7,14 @@
 @import "/css/components/badge.css";
 @import "/css/components/user-component.css";
 @import "/css/components/icons-list.css";
+@import "/css/components/another-screen-header.css";
 /*Screens*/
 @import "/css/screens/login.css";
 @import "/css/screens/friends.css";
 @import "/css/screens/find.css";
 @import "/css/screens/more.css";
+@import "/css/screens/chat.css";
+@import "/css/screens/settings.css";
 
 * {
   margin: 0;
