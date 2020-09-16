@@ -1,11 +1,22 @@
+@keyframes navAppear {
+  from {
+    transform: translateY(70px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .nav-bar {
   position: fixed;
   bottom: 0;
   left: 0;
+  transform: translateY(70px);
   width: 100%;
   padding: 20px 0;
   background-color: #f9f9fa;
   border-top: 1px solid #e8e8e8;
+  animation: navAppear 400ms ease-in-out forwards;
 }
 
 .nav-bar__list {
