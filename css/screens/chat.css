@@ -119,6 +119,8 @@
 
 .reply:focus-within {
   transform: translateY(70px);
+  padding: 0;
+  width: 100%;
 }
 
 .reply:focus-within .reply__column i,
@@ -132,8 +134,7 @@
 
 .reply:focus-within .reply__column:last-child input {
   width: 100%;
-
-  transform: translateY(-85px);
+  transform: translate(-16px, -85px);
 }
 
 .reply__column:first-child {

@@ -7,6 +7,16 @@
   }
 }
 
+@keyframes chatAlarm {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: scale(0.8);
+  }
+}
+
 .nav-bar {
   position: fixed;
   bottom: 0;
@@ -33,6 +43,7 @@
   bottom: 15px;
   left: 15px;
   position: absolute;
+  animation: chatAlarm 1s ease-in-out alternate infinite;
 }
 
 .nav-bar__more-alarm {
